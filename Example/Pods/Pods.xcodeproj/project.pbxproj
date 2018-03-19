@@ -1,0 +1,730 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A51401C720B6342A1634FDC980914F1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		228BC8D44C49837A620E482E5BFD46B5 /* Pods-NRSpeechToText_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C38A4FBBD72A148B519F075C3803348 /* Pods-NRSpeechToText_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2597FA15B63F877078774CD187B38D7F /* Pods-NRSpeechToText_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 41A3EC46CCC465D7BEF0854DBA95C000 /* Pods-NRSpeechToText_Example-dummy.m */; };
+		488841FC2060094200D13467 /* NRSpeechToText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 488841FB2060094200D13467 /* NRSpeechToText.swift */; };
+		51988C91BD56E3D4EBE66BA7ADB89C65 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		A755A2A717649D5521EE0BF84BE647A4 /* NRSpeechToText-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B44DC8CC6797038C3999D048AA65DB1 /* NRSpeechToText-dummy.m */; };
+		C703036E66BB6052807DEC9C9C59B52D /* Pods-NRSpeechToText_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 757224950512A563DBEBFC2F54EB03D9 /* Pods-NRSpeechToText_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CF880745AFC8A224F2CCE2F28C629FAF /* Pods-NRSpeechToText_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E5CFC9567269CD81D5EB08AFE9DE780B /* Pods-NRSpeechToText_Tests-dummy.m */; };
+		D38A6B4E1A0DD33F12C7A913866518D9 /* NRSpeechToText-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DA843DE24DDDAF141F67D2740188BA7 /* NRSpeechToText-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EC33487C0BF0F73ED19E18C63A215836 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9CA779239D8023E63AE834F80ED7FC67 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C7E03BFB33461E465AFA3705E8FF00A8;
+			remoteInfo = NRSpeechToText;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0A4ED44242C18D8FAB6A961C0BA0742F /* Pods-NRSpeechToText_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NRSpeechToText_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		0B8BF9FB10FD6B0E65CA8C4CC695B2FA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		0C38A4FBBD72A148B519F075C3803348 /* Pods-NRSpeechToText_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NRSpeechToText_Example-umbrella.h"; sourceTree = "<group>"; };
+		19868BE37D9B0D0103E7681D9F1C65B7 /* Pods-NRSpeechToText_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NRSpeechToText_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		28E9424AA5D8397B024F6CA3B381A2AC /* Pods_NRSpeechToText_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NRSpeechToText_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DA843DE24DDDAF141F67D2740188BA7 /* NRSpeechToText-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NRSpeechToText-umbrella.h"; sourceTree = "<group>"; };
+		36C30DA2E46BD0E9118AFA720B5A9FF5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		3AA48F1C0007A70CC52B9A8577F81A26 /* Pods-NRSpeechToText_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NRSpeechToText_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		41A3EC46CCC465D7BEF0854DBA95C000 /* Pods-NRSpeechToText_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NRSpeechToText_Example-dummy.m"; sourceTree = "<group>"; };
+		44B1A40870AA1450125860C930FF7FD4 /* Pods-NRSpeechToText_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NRSpeechToText_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		453D86401EE770F8C2EFB2B79EC3B5C5 /* Pods-NRSpeechToText_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NRSpeechToText_Example-resources.sh"; sourceTree = "<group>"; };
+		488841FB2060094200D13467 /* NRSpeechToText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = NRSpeechToText.swift; path = NRSpeechToText/Classes/NRSpeechToText.swift; sourceTree = "<group>"; };
+		4A98EDFA2E1F4E3954FF15C357C4B11C /* Pods-NRSpeechToText_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NRSpeechToText_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		4B44DC8CC6797038C3999D048AA65DB1 /* NRSpeechToText-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NRSpeechToText-dummy.m"; sourceTree = "<group>"; };
+		5C7AA9C28F3A17C951E1542F7571FE89 /* NRSpeechToText.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = NRSpeechToText.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		5E574EF26ACAC3E962A11995717D706C /* NRSpeechToText.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NRSpeechToText.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		757224950512A563DBEBFC2F54EB03D9 /* Pods-NRSpeechToText_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NRSpeechToText_Tests-umbrella.h"; sourceTree = "<group>"; };
+		7A602BCAAA19FD173F6B862E0543E653 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7FE61354B094787A5D0B3AF8552B47AA /* Pods-NRSpeechToText_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NRSpeechToText_Tests-resources.sh"; sourceTree = "<group>"; };
+		902B51E2CE8691D585F15DDFDF7FEED4 /* Pods-NRSpeechToText_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NRSpeechToText_Tests.modulemap"; sourceTree = "<group>"; };
+		913B9D7A278AF16E923E426EAF6712D6 /* Pods_NRSpeechToText_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NRSpeechToText_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9665C867A3AF82ABD616BA26971D38EC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A405235A508D3CA9741FB245BAFEF6F8 /* Pods-NRSpeechToText_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NRSpeechToText_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		B9F62D9AFCFD373F0897A9F660D9370F /* NRSpeechToText.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NRSpeechToText.xcconfig; sourceTree = "<group>"; };
+		C82C6E68B01F393E04582A85C6C676E9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE782AECA788A6814956C40866A5761E /* Pods-NRSpeechToText_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NRSpeechToText_Example.release.xcconfig"; sourceTree = "<group>"; };
+		D7EE56C4FEDC963EEAAAB0482D99B19E /* Pods-NRSpeechToText_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NRSpeechToText_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E160D5CDA5571857FAA46526D00C8249 /* Pods-NRSpeechToText_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NRSpeechToText_Example-frameworks.sh"; sourceTree = "<group>"; };
+		E5CFC9567269CD81D5EB08AFE9DE780B /* Pods-NRSpeechToText_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NRSpeechToText_Tests-dummy.m"; sourceTree = "<group>"; };
+		EAE6B837AAE4052955628B8587112F90 /* NRSpeechToText-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NRSpeechToText-prefix.pch"; sourceTree = "<group>"; };
+		EF23582420A01F2DF332FE707DCC9FEF /* NRSpeechToText.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = NRSpeechToText.modulemap; sourceTree = "<group>"; };
+		F1ACFF6E8992C8876B4476251598A261 /* Pods-NRSpeechToText_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NRSpeechToText_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		FA3D5719A8F2F1C60F9DB721C7E056C8 /* Pods-NRSpeechToText_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NRSpeechToText_Example.modulemap"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0ED5661D610662B2D480CE21D6C81139 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51988C91BD56E3D4EBE66BA7ADB89C65 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A99F11680D2E7BD51F03ADBC5824F4E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A51401C720B6342A1634FDC980914F1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E51689FEC8DDF13B6156AAF5678C13BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC33487C0BF0F73ED19E18C63A215836 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		325B7BF4C958515BCB51AAE736969F95 /* Pods-NRSpeechToText_Example */ = {
+			isa = PBXGroup;
+			children = (
+				7A602BCAAA19FD173F6B862E0543E653 /* Info.plist */,
+				FA3D5719A8F2F1C60F9DB721C7E056C8 /* Pods-NRSpeechToText_Example.modulemap */,
+				19868BE37D9B0D0103E7681D9F1C65B7 /* Pods-NRSpeechToText_Example-acknowledgements.markdown */,
+				A405235A508D3CA9741FB245BAFEF6F8 /* Pods-NRSpeechToText_Example-acknowledgements.plist */,
+				41A3EC46CCC465D7BEF0854DBA95C000 /* Pods-NRSpeechToText_Example-dummy.m */,
+				E160D5CDA5571857FAA46526D00C8249 /* Pods-NRSpeechToText_Example-frameworks.sh */,
+				453D86401EE770F8C2EFB2B79EC3B5C5 /* Pods-NRSpeechToText_Example-resources.sh */,
+				0C38A4FBBD72A148B519F075C3803348 /* Pods-NRSpeechToText_Example-umbrella.h */,
+				3AA48F1C0007A70CC52B9A8577F81A26 /* Pods-NRSpeechToText_Example.debug.xcconfig */,
+				CE782AECA788A6814956C40866A5761E /* Pods-NRSpeechToText_Example.release.xcconfig */,
+			);
+			name = "Pods-NRSpeechToText_Example";
+			path = "Target Support Files/Pods-NRSpeechToText_Example";
+			sourceTree = "<group>";
+		};
+		4607427FA504D2ACF59EE5158AFFCA0F /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7A56EA1728A60A2DEAFE488050974CDF /* NRSpeechToText */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		6501DF8B8D083F3574C08BC4F0B6F00B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5E574EF26ACAC3E962A11995717D706C /* NRSpeechToText.framework */,
+				913B9D7A278AF16E923E426EAF6712D6 /* Pods_NRSpeechToText_Example.framework */,
+				28E9424AA5D8397B024F6CA3B381A2AC /* Pods_NRSpeechToText_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7A56EA1728A60A2DEAFE488050974CDF /* NRSpeechToText */ = {
+			isa = PBXGroup;
+			children = (
+				488841FB2060094200D13467 /* NRSpeechToText.swift */,
+				F890CB483A40C62F57E939C2841638EE /* Pod */,
+				BB447162D39A0AB4EF62AA1E57CD4300 /* Support Files */,
+			);
+			name = NRSpeechToText;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				4607427FA504D2ACF59EE5158AFFCA0F /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				6501DF8B8D083F3574C08BC4F0B6F00B /* Products */,
+				82A156EA22113706D63A5486775A448F /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		82A156EA22113706D63A5486775A448F /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				325B7BF4C958515BCB51AAE736969F95 /* Pods-NRSpeechToText_Example */,
+				F74B98095B0B6D77ED0D9802ADF39A6E /* Pods-NRSpeechToText_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BB447162D39A0AB4EF62AA1E57CD4300 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C82C6E68B01F393E04582A85C6C676E9 /* Info.plist */,
+				EF23582420A01F2DF332FE707DCC9FEF /* NRSpeechToText.modulemap */,
+				B9F62D9AFCFD373F0897A9F660D9370F /* NRSpeechToText.xcconfig */,
+				4B44DC8CC6797038C3999D048AA65DB1 /* NRSpeechToText-dummy.m */,
+				EAE6B837AAE4052955628B8587112F90 /* NRSpeechToText-prefix.pch */,
+				2DA843DE24DDDAF141F67D2740188BA7 /* NRSpeechToText-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/NRSpeechToText";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		F74B98095B0B6D77ED0D9802ADF39A6E /* Pods-NRSpeechToText_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				9665C867A3AF82ABD616BA26971D38EC /* Info.plist */,
+				902B51E2CE8691D585F15DDFDF7FEED4 /* Pods-NRSpeechToText_Tests.modulemap */,
+				D7EE56C4FEDC963EEAAAB0482D99B19E /* Pods-NRSpeechToText_Tests-acknowledgements.markdown */,
+				F1ACFF6E8992C8876B4476251598A261 /* Pods-NRSpeechToText_Tests-acknowledgements.plist */,
+				E5CFC9567269CD81D5EB08AFE9DE780B /* Pods-NRSpeechToText_Tests-dummy.m */,
+				44B1A40870AA1450125860C930FF7FD4 /* Pods-NRSpeechToText_Tests-frameworks.sh */,
+				7FE61354B094787A5D0B3AF8552B47AA /* Pods-NRSpeechToText_Tests-resources.sh */,
+				757224950512A563DBEBFC2F54EB03D9 /* Pods-NRSpeechToText_Tests-umbrella.h */,
+				0A4ED44242C18D8FAB6A961C0BA0742F /* Pods-NRSpeechToText_Tests.debug.xcconfig */,
+				4A98EDFA2E1F4E3954FF15C357C4B11C /* Pods-NRSpeechToText_Tests.release.xcconfig */,
+			);
+			name = "Pods-NRSpeechToText_Tests";
+			path = "Target Support Files/Pods-NRSpeechToText_Tests";
+			sourceTree = "<group>";
+		};
+		F890CB483A40C62F57E939C2841638EE /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				36C30DA2E46BD0E9118AFA720B5A9FF5 /* LICENSE */,
+				5C7AA9C28F3A17C951E1542F7571FE89 /* NRSpeechToText.podspec */,
+				0B8BF9FB10FD6B0E65CA8C4CC695B2FA /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		05E1132BB437C0FCBCCB29B583993B48 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				228BC8D44C49837A620E482E5BFD46B5 /* Pods-NRSpeechToText_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		231F2643B7BE5A0386977EA7CBCBDA58 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D38A6B4E1A0DD33F12C7A913866518D9 /* NRSpeechToText-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BB459A218C86DA5F8D87D1247DA950F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C703036E66BB6052807DEC9C9C59B52D /* Pods-NRSpeechToText_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		197E8BC9B144CDB62156537D75E14BC2 /* Pods-NRSpeechToText_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62C0907E0DAFEF9F80A99795A44D9ADA /* Build configuration list for PBXNativeTarget "Pods-NRSpeechToText_Example" */;
+			buildPhases = (
+				458AAC40BBAFBE5852E4DDFA9C23BEC2 /* Sources */,
+				A99F11680D2E7BD51F03ADBC5824F4E1 /* Frameworks */,
+				05E1132BB437C0FCBCCB29B583993B48 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F0ABFCDA8ACAC75802BD867015BD2FD6 /* PBXTargetDependency */,
+			);
+			name = "Pods-NRSpeechToText_Example";
+			productName = "Pods-NRSpeechToText_Example";
+			productReference = 913B9D7A278AF16E923E426EAF6712D6 /* Pods_NRSpeechToText_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B169F4AD4816C827B229B61190335657 /* Pods-NRSpeechToText_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74158D05968391D69276CC9E0781B0A2 /* Build configuration list for PBXNativeTarget "Pods-NRSpeechToText_Tests" */;
+			buildPhases = (
+				54A127321E7105A2122040FAFAD7C65C /* Sources */,
+				E51689FEC8DDF13B6156AAF5678C13BC /* Frameworks */,
+				5BB459A218C86DA5F8D87D1247DA950F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-NRSpeechToText_Tests";
+			productName = "Pods-NRSpeechToText_Tests";
+			productReference = 28E9424AA5D8397B024F6CA3B381A2AC /* Pods_NRSpeechToText_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C7E03BFB33461E465AFA3705E8FF00A8 /* NRSpeechToText */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E692C6648232DA51DE3EEB97C78B9D42 /* Build configuration list for PBXNativeTarget "NRSpeechToText" */;
+			buildPhases = (
+				83CDF5349DBFE80FFE7E11971B4455A4 /* Sources */,
+				0ED5661D610662B2D480CE21D6C81139 /* Frameworks */,
+				231F2643B7BE5A0386977EA7CBCBDA58 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NRSpeechToText;
+			productName = NRSpeechToText;
+			productReference = 5E574EF26ACAC3E962A11995717D706C /* NRSpeechToText.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 6501DF8B8D083F3574C08BC4F0B6F00B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C7E03BFB33461E465AFA3705E8FF00A8 /* NRSpeechToText */,
+				197E8BC9B144CDB62156537D75E14BC2 /* Pods-NRSpeechToText_Example */,
+				B169F4AD4816C827B229B61190335657 /* Pods-NRSpeechToText_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		458AAC40BBAFBE5852E4DDFA9C23BEC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2597FA15B63F877078774CD187B38D7F /* Pods-NRSpeechToText_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54A127321E7105A2122040FAFAD7C65C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF880745AFC8A224F2CCE2F28C629FAF /* Pods-NRSpeechToText_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83CDF5349DBFE80FFE7E11971B4455A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A755A2A717649D5521EE0BF84BE647A4 /* NRSpeechToText-dummy.m in Sources */,
+				488841FC2060094200D13467 /* NRSpeechToText.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F0ABFCDA8ACAC75802BD867015BD2FD6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NRSpeechToText;
+			target = C7E03BFB33461E465AFA3705E8FF00A8 /* NRSpeechToText */;
+			targetProxy = 9CA779239D8023E63AE834F80ED7FC67 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		43D899E987F3E2B1DD03CF1203C2C82C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE782AECA788A6814956C40866A5761E /* Pods-NRSpeechToText_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NRSpeechToText_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NRSpeechToText_Example/Pods-NRSpeechToText_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_NRSpeechToText_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5011B865762FC0C0A28ECEC4CB63DC68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		6E6E45F6F8CEB59F3DAB4D46E8CF398C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9F62D9AFCFD373F0897A9F660D9370F /* NRSpeechToText.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/NRSpeechToText/NRSpeechToText-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NRSpeechToText/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/NRSpeechToText/NRSpeechToText.modulemap";
+				PRODUCT_NAME = NRSpeechToText;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		79907739E283EA27E19858D9A85FAD83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A4ED44242C18D8FAB6A961C0BA0742F /* Pods-NRSpeechToText_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NRSpeechToText_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NRSpeechToText_Tests/Pods-NRSpeechToText_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_NRSpeechToText_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		827269710C98D60C14D46BC6AF9BF728 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		922944BFFC23818B126A81C4ADF8DF4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3AA48F1C0007A70CC52B9A8577F81A26 /* Pods-NRSpeechToText_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NRSpeechToText_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NRSpeechToText_Example/Pods-NRSpeechToText_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_NRSpeechToText_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C4BEC930A49DCFF7C31C74028E077953 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9F62D9AFCFD373F0897A9F660D9370F /* NRSpeechToText.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/NRSpeechToText/NRSpeechToText-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NRSpeechToText/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/NRSpeechToText/NRSpeechToText.modulemap";
+				PRODUCT_NAME = NRSpeechToText;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D93E03D4D394D9549202C4D45550F264 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A98EDFA2E1F4E3954FF15C357C4B11C /* Pods-NRSpeechToText_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NRSpeechToText_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NRSpeechToText_Tests/Pods-NRSpeechToText_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_NRSpeechToText_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5011B865762FC0C0A28ECEC4CB63DC68 /* Debug */,
+				827269710C98D60C14D46BC6AF9BF728 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62C0907E0DAFEF9F80A99795A44D9ADA /* Build configuration list for PBXNativeTarget "Pods-NRSpeechToText_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				922944BFFC23818B126A81C4ADF8DF4D /* Debug */,
+				43D899E987F3E2B1DD03CF1203C2C82C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74158D05968391D69276CC9E0781B0A2 /* Build configuration list for PBXNativeTarget "Pods-NRSpeechToText_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79907739E283EA27E19858D9A85FAD83 /* Debug */,
+				D93E03D4D394D9549202C4D45550F264 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E692C6648232DA51DE3EEB97C78B9D42 /* Build configuration list for PBXNativeTarget "NRSpeechToText" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E6E45F6F8CEB59F3DAB4D46E8CF398C /* Debug */,
+				C4BEC930A49DCFF7C31C74028E077953 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

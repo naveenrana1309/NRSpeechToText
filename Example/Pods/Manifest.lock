@@ -1,0 +1,16 @@
+PODS:
+  - NRSpeechToText (0.1.0)
+
+DEPENDENCIES:
+  - NRSpeechToText (from `../`)
+
+EXTERNAL SOURCES:
+  NRSpeechToText:
+    :path: ../
+
+SPEC CHECKSUMS:
+  NRSpeechToText: 7ce7cb20ee283162e50649ae4f75828fcdd1963e
+
+PODFILE CHECKSUM: b046a2835240a1044bf244f7dead6d32f12e25a7
+
+COCOAPODS: 1.4.0

@@ -35,5 +35,9 @@
 		<string>UIInterfaceOrientationPortrait</string>
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 	</array>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>We will use this microphone for testing our demo.</string>
+	<key>NSSpeechRecognitionUsageDescription</key>
+	<string>We will speech recognition for testing demo</string>
 </dict>
 </plist>

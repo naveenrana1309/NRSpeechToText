@@ -1,0 +1,22 @@
+{
+  "name": "NRSpeechToText",
+  "version": "0.1.0",
+  "summary": "A short description of NRSpeechToText.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Naveen Rana/NRSpeechToText",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Naveen Rana": "naveenrana1309@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/Naveen Rana/NRSpeechToText.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "NRSpeechToText/Classes/**/*"
+}

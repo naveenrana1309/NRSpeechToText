@@ -30,7 +30,7 @@
 /* Begin PBXFileReference section */
 		0E3882A010F7AD72B4CCB415 /* Pods_NRSpeechToText_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NRSpeechToText_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		22CA161FE022FE341D75F008 /* Pods-NRSpeechToText_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NRSpeechToText_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NRSpeechToText_Tests/Pods-NRSpeechToText_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		488940BA28F2DE501CA19431 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		488940BA28F2DE501CA19431 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* NRSpeechToText_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NRSpeechToText_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -43,8 +43,8 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		7B57C2737C17EA078F67B2E9 /* Pods-NRSpeechToText_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NRSpeechToText_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-NRSpeechToText_Example/Pods-NRSpeechToText_Example.release.xcconfig"; sourceTree = "<group>"; };
 		9CC224EB1B95CBE65264B307 /* Pods-NRSpeechToText_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NRSpeechToText_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NRSpeechToText_Example/Pods-NRSpeechToText_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		AE9C35969986D234AEE2874F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		CC902E14E5B5B43764C53C44 /* NRSpeechToText.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = NRSpeechToText.podspec; path = ../NRSpeechToText.podspec; sourceTree = "<group>"; };
+		AE9C35969986D234AEE2874F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		CC902E14E5B5B43764C53C44 /* NRSpeechToText.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = NRSpeechToText.podspec; path = ../NRSpeechToText.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		EEBDEB40B4DBA2C9E82B8188 /* Pods-NRSpeechToText_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NRSpeechToText_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NRSpeechToText_Tests/Pods-NRSpeechToText_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		F72433581A1106C114AF3284 /* Pods_NRSpeechToText_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NRSpeechToText_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -215,10 +215,12 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 4GF5DM435F;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 4GF5DM435F;
 						LastSwiftMigration = 0900;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -458,7 +460,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -504,7 +506,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -517,7 +519,9 @@
 			baseConfigurationReference = 9CC224EB1B95CBE65264B307 /* Pods-NRSpeechToText_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4GF5DM435F;
 				INFOPLIST_FILE = NRSpeechToText/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -532,7 +536,9 @@
 			baseConfigurationReference = 7B57C2737C17EA078F67B2E9 /* Pods-NRSpeechToText_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4GF5DM435F;
 				INFOPLIST_FILE = NRSpeechToText/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -546,6 +552,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = EEBDEB40B4DBA2C9E82B8188 /* Pods-NRSpeechToText_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 4GF5DM435F;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -567,6 +574,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 22CA161FE022FE341D75F008 /* Pods-NRSpeechToText_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 4GF5DM435F;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
