@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'NRSpeechToText_Example' do
+  pod 'NRSpeechToText', :path => '../'
+
+  target 'NRSpeechToText_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
